@@ -1,0 +1,56 @@
+
+
+
+
+#include "largeint.h"
+#include <string>
+using namespace std;
+
+int main () {
+
+  /*******************************************************************/
+  // Gabe
+
+
+  // 393090, 950
+
+
+  LargeInt one ( 393090 );
+  LargeInt two ( 950 );
+  
+
+
+
+  LargeInt three ( one );
+  cout << "three " << three << endl;
+
+  int n;
+  cout << "enter number of cases to check : ";
+  cin >> n;
+  while ( n > 0 ) {
+    cout << "\nn  : " << n << endl;
+    cin >> one;
+    cin >> two;
+    LargeInt result = one * two;
+    cout << "result : " << result << endl;
+    n -= 1;
+  }
+
+
+
+
+  /*******************************************************************/
+  // Isaac
+
+
+
+
+
+
+
+
+
+  return 0;
+}
+
+
